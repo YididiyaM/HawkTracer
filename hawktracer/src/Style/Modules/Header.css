@@ -1,0 +1,22 @@
+Header {
+    background-image:  url("..//../images/gradient.png"),
+    url("..//../images/background.png");
+    color:white;
+    background-repeat: no-repeat;
+    background-size: 500px 60px,
+    450px 220px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+Header h2{
+    margin-top: 60px;
+}
+
+Header img{
+    height:150px;
+    width: 150px;
+    margin-top: 0px;
+}
