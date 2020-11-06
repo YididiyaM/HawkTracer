@@ -12,6 +12,7 @@ export default function HomePage({ information }) {
          <div className="search-bar">
         <input placeholder="Enter the four-digit package Id" />
         <Link to="/ResultsPage">Search</Link>
+        <Link to="/AllPackages">See all packages</Link>
         </div>
      
     </div>

@@ -5,10 +5,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //Styling
 import './Style/App.css';
 
+//import data
+
+import information from "./information.json"
+
 // Components
 import HomePage from "./Components/Templates/HomePage";
 import ResultsPage from "./Components/Templates/ResultsPage";
-
+import AllPackages from "./Components/Templates/AllPackages"
 
  function App() {
   return (
@@ -18,6 +22,7 @@ import ResultsPage from "./Components/Templates/ResultsPage";
           
           <Route path="/" exact component ={HomePage}/>  
           <Route path="/search" exact component ={ResultsPage}/>
+          <Route path="/allpackages" exact component ={AllPackages}/>
         </Switch>
       </div>
     </Router>
