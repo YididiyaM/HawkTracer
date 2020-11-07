@@ -1,31 +1,22 @@
 // React core
 import React from "react";
-import { Link } from "react-router-dom";
 
-
-export default function Package() {
+export default function Package({data}) {
+    const {
+        id, 
+        eta,
+        location_name,
+        sender,
+        status,
+        parcel_id}=data
 
   return (
-    <article className="card">
-      <Link to={`video/${id}`}>
-        <img className="thumbnail" src={videoThumb} alt={description}></img>
-      </Link>
-
-      {/* This could be a sub-component (atom)? */}
-      <aside className="meta-data">
-        <div className="left">
-          <img
-            className="channel-thumb"
-            src={channelThumb}
-            alt="Channel thumbnail"
-          />
-        </div>
-        <div className="right">
-          <h3 className="title">{title}</h3>
-          <p className="description">{channelName}</p>
-          <p className="description">{views} views</p>
-        </div>
-      </aside>
+    <article className="package">
+        <h4> Parcel id: {parcel_id}</h4>
+  <p>Estimated time of arrival{eta}</p>
+  <p>Pick up location:{location_name}</p>
+  <p>Sender:{sender}</p>
+  <p>Status:{status}</p>
     </article>
   );
 }

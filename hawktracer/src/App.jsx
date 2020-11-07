@@ -5,9 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //Styling
 import './Style/App.css';
 
-//import data
 
-import information from "./information.json"
 
 // Components
 import HomePage from "./Components/Templates/HomePage";
