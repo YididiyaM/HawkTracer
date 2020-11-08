@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Hawk Package Tracking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hawk is a web app used to display the status of orders from clients. It has two main functionalities: to showcase all orders, their status, delivery point, and sender as well as to take an input from the user using package ID and render the above mentioned characteristics. 
 
-## Available Scripts
+Hawk was made by React, CSS and very little bare-bones HTML. It is ran by writing the command "npm start" in the terminal as any web app made by React. After which the webpage should launch in our chosen web browser. Following that a home page will be displayed with an input field (where the user puts in the chosen package ID) followed by a "Search" button as well as a "Show All Packages" button which displays the details of all packages the user has ordered. 
 
-In the project directory, you can run:
+Optional functionalities 
+Hawk can be optimized to be used in multiple countries making it available in many languages. This can be done in one of three ways: 
+1. Build multiple web apps and make the user pick a region and a language upon launch.
 
-### `npm start`
+    This will make it easier for the user to choose a language they are most comfortable with and provide easy accessibilty. However, this has the drawback of maintaining many web apps.
+2. Include multiple languages in the same app. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    While this maybe less cumbersome and include all langauges in one default app, it also means that each piece of text on the app needs a direct and equivalent translation, which is a lot of work and makes the app much larger than it should be.
+    
+3. Change the language based on the location
+    While this solved the issue of having the same app carry multiple languages, it also means the user has less autonomy on which app they can access.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### Used technologies
+This web app was made by React and needs react to be installed to run initially. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
