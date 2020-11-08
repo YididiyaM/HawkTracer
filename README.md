@@ -21,7 +21,7 @@ Hawk can be optimized to be used in multiple countries making it available in ma
     While this solved the issue of having the same app carry multiple languages, it also means the user has 
     less autonomy on which app they can access.
     
-    The following is what a Swedish Hawk would look like.
+   ### The following is what a Swedish Hawk would look like.
 ![](src/images/hawk.jpg)
 
 ### Used technologies
