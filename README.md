@@ -14,8 +14,8 @@ Hawk can be optimized to be used in multiple countries making it available in ma
 
 ### 2. Include multiple languages in the same app. 
 
-    While this maybe less cumbersome and include all langauges in one default app, it also means that each piece of text on the app 
-    needs a direct and equivalent translation, which is a lot of work and makes the app much larger than it should be.
+    While this maybe less cumbersome and include all langauges in one default app, it also means that each piece of text on 
+    the app needs a direct and equivalent translation, which is a lot of work and makes the app much larger than it should be.
     
 ### 3. Change the language based on the location
     While this solved the issue of having the same app carry multiple languages, it also means the user has 
