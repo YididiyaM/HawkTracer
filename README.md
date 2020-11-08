@@ -20,7 +20,7 @@ Hawk can be optimized to be used in multiple countries making it available in ma
 ### 3. Change the language based on the location
     While this solved the issue of having the same app carry multiple languages, it also means the user has 
     less autonomy on which app they can access.
-
+![](src/images/hawk.jpg)
 
 ### Used technologies
 This web app was made by React and needs react to be installed to run initially. 
