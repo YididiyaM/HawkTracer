@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:ital@1&family=Poppins&display=swap');
 Header {
     background-image:  url("..//../images/gradient.png"),
     url("..//../images/background.png");
     color:white;
     background-repeat: no-repeat;
-    background-size: 500px 60px,
-    450px 220px;
+    background-size: 100%, 100%;
     margin-top: 0px;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    font-family:Lato;
 }
 
+
+
 Header h2{
-    margin-top: 60px;
+    margin-top: 0px;
+    height: 30px;
 }
 
 Header img{
     height:150px;
     width: 150px;
-    margin-top: 0px;
+    margin-top: -45px;
+    padding-bottom: 100px;
 }

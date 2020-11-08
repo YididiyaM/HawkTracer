@@ -8,7 +8,9 @@ import './Style/App.css';
 // Components
 import HomePage from "./Components/Templates/HomePage";
 import ResultsPage from "./Components/Templates/ResultsPage";
-import AllPackages from "./Components/Templates/AllPackages"
+import AllPackages from "./Components/Templates/AllPackages";
+
+import information from "./Components/Templates/AllPackages";
 
 
  function App() {
@@ -18,7 +20,12 @@ import AllPackages from "./Components/Templates/AllPackages"
         <Switch>
           
           <Route path="/" exact component ={HomePage}/>  
-          <Route path="/search" exact component ={ResultsPage}/>
+           <Route 
+          path="/ResultsPage/:query" 
+          render ={({match})=>(
+            <ResultsPage match ={match} information={information}/>
+          )}
+          /> 
           <Route path="/allpackages" exact component ={AllPackages}/>
         </Switch>
       </div>

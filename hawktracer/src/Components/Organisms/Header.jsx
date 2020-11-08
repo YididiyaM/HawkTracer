@@ -1,7 +1,6 @@
 // React core
 import '..//../Style/Modules/Header.css';
 import React from "react";
-import { Link } from "react-router-dom";
 
 
 // Media assets
@@ -11,13 +10,13 @@ export default function Header() {
   // Render
   return (
     <header className={"header"}>
-      
        <span> 
-           <h2>Hawk</h2>
+           <h2>hawk</h2>
            </span>
 
            <span>
-            <img src={logo} alt="Logo" />
+             <img src={logo} className="logo" alt="Logo" />
+
         </span>
      
     </header>
