@@ -7,14 +7,15 @@ Hawk was made by React, CSS and very little bare-bones HTML. It is ran by writin
 Optional functionalities 
 Hawk can be optimized to be used in multiple countries making it available in many languages. This can be done in one of three ways: 
 
-#1. Build multiple web apps and make the user pick a region and a language upon launch.
+### 1. Build multiple web apps and make the user pick a region and a language upon launch.
 
     This will make it easier for the user to choose a language they are most comfortable with and provide easy accessibilty. However, this has the drawback of maintaining many web apps.
-#2. Include multiple languages in the same app. 
+
+### 2. Include multiple languages in the same app. 
 
     While this maybe less cumbersome and include all langauges in one default app, it also means that each piece of text on the app needs a direct and equivalent translation, which is a lot of work and makes the app much larger than it should be.
     
-#3. Change the language based on the location
+### 3. Change the language based on the location
     While this solved the issue of having the same app carry multiple languages, it also means the user has less autonomy on which app they can access.
 
 
